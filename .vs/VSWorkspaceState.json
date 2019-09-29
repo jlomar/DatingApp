@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DatingApp.API",
+    "\\DatingApp.API\\Controllers",
+    "\\DatingApp.API\\Migrations"
+  ],
+  "SelectedNode": "\\DatingApp.API\\Migrations\\DataContextModelSnapshot.cs",
+  "PreviewInSolutionExplorer": false
+}
