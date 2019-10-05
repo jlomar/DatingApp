@@ -64,7 +64,7 @@ namespace DatingApp.API.Controllers
              var tokenDescriptor = new SecurityTokenDescriptor
              {
                  Subject = new ClaimsIdentity(claims),
-                 Expires = new  DateTime(2019,10,3),
+                 Expires = DateTime.Now.AddDays(1),
                  SigningCredentials = creds
              };
 
@@ -76,4 +76,5 @@ namespace DatingApp.API.Controllers
                  token =tokenHandler.WriteToken(token)
              });
     }
+}
 }
